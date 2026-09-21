@@ -9,6 +9,7 @@ Skills follow the standard `SKILL.md` convention (a `name` + `description` front
 | Skill | Description | Path |
 |-------|-------------|------|
 | `jira-issue-report` | Generate Jira issue reports from Atlassian MCP tools with parent story and epic enrichment. | [`skills/jira-issue-report/SKILL.md`](skills/jira-issue-report/SKILL.md) |
+| `jira-subtask-creator` | Create a Jira sub-task under any parent issue, discovering project, custom fields, assignee, and status from Jira metadata. | [`skills/jira-subtask-creator/SKILL.md`](skills/jira-subtask-creator/SKILL.md) |
 
 ## Project Structure
 
@@ -16,7 +17,9 @@ Skills follow the standard `SKILL.md` convention (a `name` + `description` front
 .
 ├── README.md
 └── skills
-    └── jira-issue-report
+    ├── jira-issue-report
+    │   └── SKILL.md
+    └── jira-subtask-creator
         └── SKILL.md
 ```
 
